@@ -1,7 +1,9 @@
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #f9f7fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Playfair Display", serif;
 }
 
 body {
@@ -10,7 +12,11 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
   margin: 0;
 }
 
@@ -32,8 +38,25 @@ h3 {
 p {
   padding: 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 .navigation-links {
