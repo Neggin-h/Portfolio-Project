@@ -42,6 +42,36 @@ p {
   font-family: var(--default-font-family);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer .social-links a {
+  color: var(--primary-color);
+  font-size: 18px;
+  margin: 0 20px;
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -49,7 +79,7 @@ p {
 }
 
 .btn {
-  transition: 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 .btn :hover {
@@ -158,6 +188,10 @@ p {
   }
   h2 {
     font-size: 42px;
+  }
+
+  h4 {
+    font-size: 26px;
   }
 
   .project-description {
