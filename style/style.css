@@ -6,6 +6,10 @@
   --heading-font-family: "Playfair Display", serif;
 }
 
+body {
+  margin-top: 100px;
+}
+
 h1,
 h2,
 h3,
